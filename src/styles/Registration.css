@@ -1,0 +1,19 @@
+.Register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 77vh;
+    background-color: white;
+    color: #efb355;
+}
+
+.RegisterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 77vh;
+    background-color: white;
+    color: #efb355;
+}
