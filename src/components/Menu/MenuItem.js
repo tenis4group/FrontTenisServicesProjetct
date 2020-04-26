@@ -11,14 +11,14 @@ const list = [
   { name: "Zaloguj się", path: "./login" },
 ];
 
-const Menu = () => {
+const MenuItem = () => {
   const menu = list.map((item) => (
-    <li key={item.name} className="header__menu-item">
+    <li key={item.name}>
       <NavLink to={item.path}>{item.name}</NavLink>
     </li>
   ));
 
-  return <ul className="header__menu">{menu}</ul>;
+  return <ul>{menu}</ul>;
 };
 
-export default Menu;
+export default MenuItem;

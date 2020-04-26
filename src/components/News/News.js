@@ -1,7 +1,9 @@
 import { Component } from "react";
 import React from "react";
-import Article from "../components/Article";
-import "../style/News.css";
+
+import Article from "./Article";
+
+import "../../styles/News.css";
 
 class News extends Component {
   state = {
@@ -24,6 +26,16 @@ class News extends Component {
       {
         id: 4,
         title: "coś tam 4",
+        description: "coś tam coś tam ",
+      },
+      {
+        id: 5,
+        title: "coś tam 5",
+        description: "coś tam coś tam ",
+      },
+      {
+        id: 6,
+        title: "coś tam 6",
         description: "coś tam coś tam ",
       },
     ],
