@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Form from  'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import RegistrationAlert from './RegistrationAlert';
-import "../../styles/Registration.css";
 
 
 class Registration extends Component {
