@@ -9,7 +9,7 @@ import Activities from "./components/Activities";
 import Opinions from "./components/Opinions";
 import Contact from "./components/Contact";
 import Login from "./components/Login/Login";
-import Registration from "./components/Registration/Registration";
+import Registration from "./components/Registration";
 
 
 
