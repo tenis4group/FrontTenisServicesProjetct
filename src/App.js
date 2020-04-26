@@ -9,6 +9,9 @@ import Activities from "./components/Activities";
 import Opinions from "./components/Opinions";
 import Contact from "./components/Contact";
 import Login from "./components/Login/Login";
+import Registration from "./components/Registration/Registration";
+
+
 
 import "./App.css";
 
@@ -28,6 +31,7 @@ class App extends Component {
               <Route path="/opinions" component={Opinions} />
               <Route path="/contact" component={Contact} />
               <Route path="/login" component={Login} />
+              <Route path="/singup" component={Registration} />
               <Route render={() => <p>Nie ma takiej strony</p>} /> />
             </Switch>
           </main>
