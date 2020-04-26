@@ -41,6 +41,17 @@
 
 .toolbar__navigation-item li {
     padding: 0 0.5rem;
+    align-self: center;
+}
+
+.toolbar__navigation-item li:nth-last-child(1) {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #efb355;
+}
+
+.toolbar__navigation-item li:nth-last-child(1) a {
+    color: white;
 }
 
 .toolbar__navigation-item a {
@@ -48,6 +59,8 @@
     text-decoration: none;
     font-size: 0.9rem;
 }
+
+
 
 .toolbar__navigation-item a:hover,
 .toolbar__navigation-item a.active {

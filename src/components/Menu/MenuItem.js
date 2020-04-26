@@ -9,6 +9,7 @@ const list = [
   { name: "Opinie", path: "./opinions" },
   { name: "Kontakt", path: "./contact" },
   { name: "Zaloguj się", path: "./login" },
+  { name: "Załóż konto", path: "./singup" },
 ];
 
 const MenuItem = () => {
