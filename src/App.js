@@ -7,11 +7,9 @@ import Gallery from "./components/Gallery";
 import AboutUs from "./components/AboutUs";
 import Activities from "./components/Activities";
 import Opinions from "./components/Opinions";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import Login from "./components/Login/Login";
 import Registration from "./components/Registration";
-
-
 
 import "./App.css";
 

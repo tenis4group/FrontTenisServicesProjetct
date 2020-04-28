@@ -1,0 +1,122 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 77vh;
+    padding: 50px 0px;
+}
+
+.contact-description {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    flex-basis: 50%;
+    /* background-color: green; */
+    color: #efb355;
+}
+
+.contact-description h1 {
+    flex-basis: 100%;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Bangers", cursive;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+.contact-description .contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 40px;
+    font-size: 1.3rem;
+}
+
+.contact-description .contact-container p {
+    margin-top: 10px;
+}
+
+.contact-location {
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 400px;
+    width: 50%;
+    z-index: 50;
+
+}
+
+.contact-form {
+    padding: 0;
+    background-size: cover;
+    margin-top: 20px;
+    border-top: 60px solid #efb355;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    height: 400px;
+}
+
+.contact-form h1 {
+    text-transform: uppercase;
+    color: #efb355;
+    margin: 20px 0;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.contact-form form {
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #efb355;
+    border: 1px solid #efb355;
+    color: white;
+}
+
+@media (max-width:1024px) {
+    .contact-description {
+        flex-basis: 100%;
+    }
+
+    .contact-location {
+        flex-basis: 100%;
+    }
+
+}
+
+@media(max-width:764px) {
+    .contact-description {
+        height: 400px;
+        margin-bottom: 30px;
+
+    }
+
+    .contact-container {
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .contact-container>div {
+        flex-basis: 100%;
+    }
+
+    .contact-form {
+        padding: 0 30px;
+    }
+
+}

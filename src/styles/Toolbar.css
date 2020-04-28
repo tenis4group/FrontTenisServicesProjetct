@@ -5,6 +5,7 @@
     width: 100%;
     background-color: white;
     height: 56px;
+    z-index: 100;
 }
 
 .toolbar__navigation {
@@ -73,6 +74,7 @@
     background-image: url(../images/login_tlo.jpg);
     background-size: cover;
     background-position: center;
+    z-index: 100;
 }
 
 @media (max-width:768px) {
