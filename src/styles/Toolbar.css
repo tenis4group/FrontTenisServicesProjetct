@@ -1,94 +1,92 @@
 .toolbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    height: 56px;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: 56px;
+  z-index: 100;
 }
 
 .toolbar__navigation {
-    display: flex;
-    height: 100%;
-    width: 90%;
-    margin: 0 auto;
-    align-items: center;
-    padding: 0 1rem;
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 .toolbar__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
 }
 
-
 .toolbar__logo a img {
-    height: 50px;
+  margin-top: 30px;
+  height: 80px;
 }
 
 .spacer {
-    flex: 1;
+  flex: 1;
 }
 
 .toolbar__navigation-item ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .toolbar__navigation-item li {
-    padding: 0 0.5rem;
-    align-self: center;
+  padding: 0 0.5rem;
+  align-self: center;
 }
 
 .toolbar__navigation-item li:nth-last-child(1) {
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #efb355;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #efb355;
 }
 
 .toolbar__navigation-item li:nth-last-child(1) a {
-    color: white;
+  color: white;
 }
 
 .toolbar__navigation-item a {
-    color: #efb355;
-    text-decoration: none;
-    font-size: 0.9rem;
+  color: #efb355;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
-
-
 
 .toolbar__navigation-item a:hover,
 .toolbar__navigation-item a.active {
-    color: #efb355;
-    font-weight: bold;
+  color: #efb355;
+  font-weight: bold;
 }
 
 .baner {
-    height: 15vh;
-    background-image: url(../images/login_tlo.jpg);
-    background-size: cover;
-    background-position: center;
-    z-index: 100;
+  height: 15vh;
+  background-image: url(../images/login_tlo.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 100;
 }
 
-@media (max-width:768px) {
-    .toolbar__navigation-item {
-        display: none
-    }
+@media (max-width: 768px) {
+  .toolbar__navigation-item {
+    display: none;
+  }
 }
 
 @media (min-width: 769px) {
-    .toolbar__toggle-button {
-        display: none;
-    }
+  .toolbar__toggle-button {
+    display: none;
+  }
 
-    .toolbar__logo {
-        margin-left: 0;
-    }
+  .toolbar__logo {
+    margin-left: 0;
+  }
 }

@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    min-height: 100vh;
     background-color: #fafafa;
     border-top: 1px solid white;
 }

@@ -1,9 +1,5 @@
-.app {
-    min-height: 77vh;
-}
-
 .main {
-    height: 100%;
+    min-height: 77vh;
     margin-top: calc(100vh - 77vh);
     box-shadow: 0px 0px 3px 0px rgba(110, 108, 108, 0.75);
 }
