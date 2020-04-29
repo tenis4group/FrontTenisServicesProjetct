@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import MainPage from "./components/MainPage";
 import Header from "./layouts/Header";
 import News from "./components/News/News";
 import Gallery from "./components/Gallery";
@@ -21,7 +22,7 @@ class App extends Component {
           <Header />
           <main className="main">
             <Switch>
-              <Route path="/" exact />
+              <Route path="/" exact component={MainPage} />
               <Route path="/news" component={News} />
               <Route path="/gallery" component={Gallery} />
               <Route path="/aboutus" component={AboutUs} />
