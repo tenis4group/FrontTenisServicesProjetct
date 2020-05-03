@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faAt } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,8 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-description">
-        <h1>Sand of Egypt</h1>
+        <h1 className="contact-title">Sand of Egypt</h1>
+
         <div className="contact-container">
           <div className="contact-number">
             <h2>Kontakt:</h2>

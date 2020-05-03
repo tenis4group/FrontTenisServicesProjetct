@@ -13,7 +13,7 @@
     color: #efb355;
 }
 
-.contact-description h1 {
+.contact-description h1.contact-title {
     flex-basis: 100%;
     text-align: center;
     padding-top: 40px;

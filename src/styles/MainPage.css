@@ -1,0 +1,56 @@
+.mainPage {
+    height: 77vh;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.mainPage-description {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #16bc7d;
+    font-family: 'Amatic SC', cursive;
+}
+
+.mainPage-button {
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid #16bc7d;
+    border-radius: 10px;
+    color: #16bc7d;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+@media(max-width:1024px) {
+    .mainPage-description {
+        left: 100px;
+    }
+
+    .mainPage-button {
+        left: 100px;
+        background-color: rgba(22, 188, 125, 0.7);
+        border-color: #0a1c30;
+        color: #0a1c30;
+    }
+}
+
+@media(max-width:769px) {
+    .mainPage-description {
+        top: 175px;
+        font-size: 40px;
+    }
+
+    .mainPage-button {
+        padding: 15px;
+    }
+}
